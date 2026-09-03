@@ -60,11 +60,11 @@ curl --location --request PUT 'https://nxlink.nxcloud.com/admin/saas_plat/user/l
 
 ```
 
-https://nxlink.nxcloud.com/cc/fs/webCall/register    api请求获取注册信息
+https://nxlink.nxcloud.com/cc/api/fs/webCall/register    api请求获取注册信息
 
 ```
 请求体
-curl --location --request POST 'https://nxlink.nxcloud.com/cc/fs/webCall/register' \
+curl --location --request POST 'https://nxlink.nxcloud.com/cc/api/fs/webCall/register' \
 --header 'usertoken: eyJhbGciOiJIUzI1NiJ9.eyJ1SWQiOjEsInV1SWQiOiI2NGMxY2I2Y2IxYmNlYzE0NjM1ZTIyMGUifQ.rYlUFXIqTnP9vCAkkHIU_jGl5SO_oBJq4nzKp8Ivx7g' \
 --header 'lang: zh_CN' \
 --header 'Authorization;' \
