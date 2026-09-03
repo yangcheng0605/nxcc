@@ -137,7 +137,7 @@
             let tokenInfo = JSON.parse(this.responseText);
             xmlHttp.open(
               "post",
-              "https://nxlink.nxcloud.com/cc/fs/webCall/register"
+              "https://nxlink.nxcloud.com/cc/api/fs/webCall/register"
             );
             xmlHttp.setRequestHeader("Content-Type", "application/json");
             xmlHttp.setRequestHeader("usertoken", tokenInfo.data.token);
